@@ -24,7 +24,7 @@ public class LAB2 {
             FileInputStream input = new FileInputStream("data.dat");
             int value;
             while((value=input.read())!=-1){
-                System.out.println((char)value);
+                System.out.print((char) value);
             }
             input.close();
             
